@@ -29,6 +29,7 @@ for (let i = 0; i <arrlength; i++) {
 const arrowhtml=` ${arrowbody} ${arrowhead}`
 arrow.innerHTML=arrowhtml;
 }
+
 // function for the progress bar
 function progress_bar(){
 
