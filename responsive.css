@@ -1,0 +1,255 @@
+:root {
+  --colorprimary: #ffb703;
+  --textcolor: #f4f7f8;
+  --colorbg: #023047;
+}
+
+/* code for laptop normal */
+
+@media screen and (max-width: 1024px) {
+  header nav {
+    height: 5.5rem;
+  }
+
+  header nav ul li:nth-child(1) {
+    margin-right: 11.7rem;
+    font-size: 30px;
+  }
+  header nav ul {
+    gap: 20px;
+  }
+
+  .logo {
+    width: 10rem;
+    height: 10rem;
+    top: -1.8rem;
+  }
+  .logo img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .line2 {
+    width: 22.6rem;
+  }
+  .box div {
+    margin-top: 0px;
+    padding: 6px 10px;
+  }
+  .box {
+    left: 1.8rem;
+    min-height: 280px;
+  }
+  .boxdetails {
+    padding: 0px;
+  }
+  .box-logo {
+    right: 5px;
+    top: 4px;
+  }
+  .box-logo img {
+    top: -6.9px;
+    left: -10.9px;
+  }
+  .boxsummary {
+    width: 30rem;
+    overflow-y: scroll;
+  }
+  .boxsummary::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .edu {
+    left: -220px;
+    height: 100px;
+  }
+
+  .line4 {
+    width: 20rem;
+  }
+  .lic {
+    margin-left: 21rem;
+    width: 42rem;
+    min-height: 100px;
+    margin-top: 20px;
+  }
+  .licsummary {
+    width: 36rem;
+  }
+  .line5 {
+    width: 10rem;
+  }
+  .proj {
+    margin-left: 180px;
+    width: 45rem;
+    height: 400px;
+  }
+  .projsummary {
+    width: 40rem;
+  }
+
+  .box-logo2 {
+    top: 3.1rem;
+  }
+  .box-logo3 {
+    top: 5.9rem;
+  }
+
+  .line6 {
+    width: 18rem;
+    top: 350px;
+  }
+  .skills {
+    margin-left: 300px;
+    height: 26rem;
+  }
+  .skillsgrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skillbox {
+    margin-bottom: 4px;
+  }
+
+  .hon {
+    position: absolute;
+    left: -13rem;
+    width: 54rem;
+    height: 100px;
+  }
+  .honsummary {
+    width: 48rem;
+    height: 109px;
+  }
+
+  .line7 {
+    width: 2rem;
+  }
+  /* /*  * */
+}
+
+/* for the tablet */
+@media screen and (max-width: 786px) {
+  header nav ul li:nth-child(1) {
+    margin-right: 5rem;
+    margin-top: 8px;
+    font-size: 25px;
+  }
+  header nav {
+    gap: 10px;
+  }
+  header div:nth-child(4) {
+    width: 14rem;
+    top: 10rem;
+    right: -4rem;
+  }
+  header div:nth-child(5) {
+    width: 94.7vw;
+    top: 215px;
+    right: 18px;
+  }
+
+  header nav ul {
+    gap: 8px;
+    margin-right: 12px;
+  }
+
+  .line1 {
+    width: 10.6rem;
+  }
+  .about {
+    width: 65vw;
+    height: 200px;
+    margin-left: 270px;
+  }
+
+  .line2 {
+    width: 15.4rem;
+  }
+  .exp {
+    left: -5.5rem;
+  }
+  .expbox {
+    width: 20rem;
+    height: 3.6rem;
+  }
+  .boxdetails .box-logo {
+    margin-top: 0px;
+  }
+  .expbox p {
+    margin: 6px 0px;
+  }
+  .boxdetails div:nth-child(1) p:nth-child(3) {
+    margin: 0px;
+  }
+
+  .edu .boxsummary {
+    width: 23.8rem;
+  }
+  .line4 {
+    width: 20rem;
+  }
+  .lic {
+    margin-left: 21rem;
+    width: 26rem;
+    min-height: 100px;
+    margin-top: 20px;
+  }
+  .licsummary {
+    width: 20rem;
+  }
+  .licsummary p:nth-child(2) {
+    margin: 0px;
+  }
+  .proj {
+    margin-left: 180px;
+    width: 30rem;
+    height: 400px;
+  }
+  .projsummary {
+    width: 25rem;
+  }
+  .projsummary p:nth-child(4) a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--textcolor);
+    margin: 0px;
+    margin-right: 4px;
+  }
+
+  .box-logo2 {
+    top: 3.1rem;
+  }
+  .box-logo3 {
+    top: 5.9rem;
+  }
+
+  .line6 {
+    width: 14rem;
+    top: 350px;
+  }
+  .skills {
+    width: 26rem;
+    margin-left: 15rem;
+    height: 26rem;
+  }
+  .skillsgrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hon {
+    position: absolute;
+    left: -210px;
+    width: 38rem;
+    height: 100px;
+  }
+  .honsummary {
+    width: 32rem;
+
+    height: 109px;
+  }
+
+  .line7 {
+    width: 2rem;
+  }
+}
+/*  */
