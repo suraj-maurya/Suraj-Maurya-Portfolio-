@@ -79,6 +79,23 @@ header nav ul li:nth-child(1) {
   padding-top: 0px;
   
 }
+.Contacts-Bucket{
+  text-shadow: 0 0 10px #00effb, 0 0 20px #ffff00, 0 0 30px #ffff00,
+    0 0 40px #ffff00, 0 0 55px #ffff00, 0 0 75px #ffff00;
+  /* color: rgb(103, 79, 7); */
+  font-weight: 900;
+  padding: 2px 8px;
+
+  
+  -webkit-box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff,
+    inset 0 0 15px #fff, 0 0 1px #ffffff, 0 0 3px #ffffff, 0 0 5px #fff,
+    0 0 10px #fff, 0 0 20px #fff;
+  -moz-box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff,
+    0 0 1px #ffffff, 0 0 3px #ffffff, 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+  box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff,
+    0 0 1px #ffffff, 0 0 3px #ffffff, 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+
+}
 .logo {
   width: 12rem;
   height: 12rem;
