@@ -59,6 +59,7 @@ header nav ul {
   list-style: none;
   margin-top: 22px;
   font-weight: 700;
+  position: relative;
 }
 header nav ul li {
   padding-top: 15px;
@@ -101,6 +102,9 @@ header nav ul li:nth-child(1) {
 header div:nth-child(3) {
   width: 86.5vw;
   top: 107px;
+}
+.name-m{
+  display: none;
 }
 header div:nth-child(4) {
   width: 16rem;
@@ -210,6 +214,7 @@ header div:nth-child(5) {
   border: 0.5rem solid var(--colorprimary);
   margin-left: 350px;
   overflow-y: scroll;
+  
 }
 
 .secAbout {
@@ -282,6 +287,11 @@ header div:nth-child(5) {
   height: 4rem;
   padding: 0px;
   margin: 0px;
+  overflow-y: scroll;
+  
+}
+.boxsummary::-webkit-scrollbar{
+  width: 0px;
 }
 .box-logo {
   width: 4.2rem;
