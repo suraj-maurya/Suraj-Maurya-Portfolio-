@@ -60,6 +60,7 @@ header nav ul {
   margin-top: 22px;
   font-weight: 700;
   position: relative;
+  
 }
 header nav ul li {
   padding-top: 15px;
@@ -72,9 +73,10 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 header nav ul li:nth-child(1) {
-  margin-right: 24rem;
+  margin-right: 22rem;
   font-size: 40px;
   padding-top: 0px;
+  
 }
 .logo {
   width: 12rem;
