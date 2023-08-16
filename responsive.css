@@ -10,6 +10,7 @@
   header nav {
     height: 5.5rem;
   }
+  
 
   header nav ul li:nth-child(1) {
     position: absolute;

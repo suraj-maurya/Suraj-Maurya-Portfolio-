@@ -1,0 +1,36 @@
+:root {
+    --colorprimary: #ffb703;
+    --textcolor: #f4f7f8;
+    --colorbg: #023047;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.maincontainer1{
+    width: 100vw;
+    height: 100vh;
+background-color: var(--colorbg);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container1{
+    width: 50vw;
+    height: 50vh;
+    background-color: var(--colorprimary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 30px;
+border-radius: 10px;
+text-align: center;
+}
