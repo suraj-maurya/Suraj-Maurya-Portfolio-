@@ -33,4 +33,16 @@ align-items: center;
 font-size: 30px;
 border-radius: 10px;
 text-align: center;
+position: relative;
+
+}
+button{
+    position: absolute;
+    left: 40%;
+    top: 62%;
+    
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    
 }
