@@ -135,7 +135,7 @@
 @media screen and (max-width: 786px) {
   header nav ul li:nth-child(1) {
     position: absolute;
-    left: 120px;
+    left: 130px;
     margin-top: 8px;
     font-size: 25px;
   }
@@ -154,8 +154,9 @@
   }
 
   header nav ul {
-    gap: 8px;
+    gap: 7.5px;
     margin-right: 12px;
+    font-size: 12px;
   }
 
   .line1 {
