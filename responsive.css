@@ -12,12 +12,14 @@
   }
 
   header nav ul li:nth-child(1) {
-    margin-right: 10.7rem;
+    position: absolute;
+    left: 7rem;
 
     font-size: 30px;
   }
+
   header nav ul {
-    gap: 20px;
+    gap: 1rem;
   }
 
   .logo {
@@ -210,13 +212,12 @@
   .projsummary {
     width: 25rem;
   }
-  .projsummary p:nth-child(1){
-      margin-right: 80px;
-    }
-    .projsummary p:nth-child(2){
-        margin-left:0px;
-        
-    }
+  .projsummary p:nth-child(1) {
+    margin-right: 80px;
+  }
+  .projsummary p:nth-child(2) {
+    margin-left: 0px;
+  }
   .projsummary p:nth-child(4) a {
     list-style: none;
     text-decoration: none;
@@ -263,10 +264,9 @@
 /*  */
 /* for the Mobile-L */
 @media screen and (max-width: 425px) {
-
-    .container{
-        padding-bottom: 300px;
-    }
+  .container {
+    padding-bottom: 300px;
+  }
   header nav ul {
     display: none;
   }
@@ -275,9 +275,15 @@
     top: 93px;
   }
 
-  header div:nth-child(4),
+  header div:nth-child(4) {
+    width: 6rem;
+    right: -1rem;
+    top: 7.8rem;
+  }
   header div:nth-child(5) {
-    display: none;
+    width: 26rem;
+    top: 8.5rem;
+    left: 0rem;
   }
   .name-m {
     display: flex;
@@ -285,26 +291,25 @@
     justify-content: center;
     position: absolute;
     top: -50px;
-    left: -15px;
+    right: 0.2rem;
     font-weight: 700;
     font-size: 25px;
     z-index: 1000;
     background-color: transparent;
   }
+  .longline {
+    display: block;
+    width: 0.5rem;
+    height: 160rem;
+    background-color: var(--colorprimary);
+    border-radius: 4px;
+    position: absolute;
+    top: -4rem;
+  }
   .arrow {
     display: none;
   }
-  .line1,
-  .line2,
-  .line3,
-  .line4,
-  .line5,
-  .line6,
-  .line7,
-  .line8,
-  .line9 {
-    display: none;
-  }
+
   .logo {
     width: 8rem;
     height: 8rem;
@@ -320,6 +325,7 @@
     margin-top: 0px;
     position: relative;
     top: -80px;
+    margin-left: 0.8rem;
   }
 
   .fullbox {
@@ -330,7 +336,33 @@
     align-items: center;
     margin-bottom: 2rem;
     padding: 0px;
+    position: relative;
+
     /* width: 80vw; */
+  }
+  .line1,
+  .line2,
+  .line3,
+  .line4,
+  .line5,
+  .line6,
+  .line7,
+  .line8,
+  .line9 {
+    width: 1.6rem;
+    left: 0rem;
+    top: 2rem;
+    margin: 0px;
+    position: absolute;
+  }
+  .line {
+    top: 10rem;
+  }
+  .line1 {
+    top: 30rem;
+  }
+  .line7 {
+    top: 27rem;
   }
   .box {
     margin: 0px;
@@ -339,36 +371,34 @@
     width: 90vw;
     min-height: 250px;
   }
-  .boxsummary{
-      width: 20.1rem;
-      font-size: 12px;
-    }
-    .boxsummary p:nth-child(1){
-        font-size: 14px;
-    }
-    .boxsummary p:nth-child(2),
-    .boxsummary p:nth-child(3),
-    .boxsummary p:nth-child(4),
-    .boxsummary p:nth-child(5)
-    {
-        font-size: 10px;
-        
-    }
+  .boxsummary {
+    width: 20.1rem;
+    font-size: 12px;
+  }
+  .boxsummary p:nth-child(1) {
+    font-size: 14px;
+  }
+  .boxsummary p:nth-child(2),
+  .boxsummary p:nth-child(3),
+  .boxsummary p:nth-child(4),
+  .boxsummary p:nth-child(5) {
+    font-size: 10px;
+  }
 
-  .box-logo{
-      height: 3.7rem;
-      width: 3.7rem;
-      margin: 0px;
-      position: absolute;
-      top: 5.4px;
-      right: -10px;
-    }
-    .box-logo img{
-        height: 3.7rem;
-        width: 3.7rem;
-        top: -0.5rem;
-        left: -0.8rem;
-    }
+  .box-logo {
+    height: 3.7rem;
+    width: 3.7rem;
+    margin: 0px;
+    position: absolute;
+    top: 5.4px;
+    right: -10px;
+  }
+  .box-logo img {
+    height: 3.7rem;
+    width: 3.7rem;
+    top: -0.5rem;
+    left: -0.8rem;
+  }
   .about {
     top: 0px;
     margin-top: 0px;
@@ -379,66 +409,55 @@
     position: static;
   }
 
- 
   .edu {
     top: 0px;
     margin-top: 0px;
-    
   }
-  .edusummary{
+  .edusummary {
     height: 3.6rem;
   }
-  .edusummary p:nth-child(4) strong{
+  .edusummary p:nth-child(4) strong {
     font-size: 11px;
   }
-  .licsummary{
-      height: 3.6rem;
-    }
-    .licsummary p:nth-child(1){
-        margin-right: 80px;
-    }
-    .licsummary p:nth-child(3),
-    .licsummary p:nth-child(4)
-    {
-        margin: 0px;
-        margin-bottom: 2px;
-    }
-  .proj{
+  .licsummary {
+    height: 3.6rem;
+  }
+  .licsummary p:nth-child(1) {
+    margin-right: 80px;
+  }
+  .licsummary p:nth-child(3),
+  .licsummary p:nth-child(4) {
+    margin: 0px;
+    margin-bottom: 2px;
+  }
+  .proj {
     height: 250px;
   }
-  .proj .box-logo2
-  {
+  .proj .box-logo2 {
     top: 3.1rem;
-
-    
   }
-  .proj .box-logo3
-  {
+  .proj .box-logo3 {
     top: 6.1rem;
-    
   }
-  .skills{
+  .skills {
     height: 550px;
     margin-top: 260px;
   }
-  .hon{
+  .hon {
     margin: 0px;
     padding: 0px;
     position: static;
     margin-top: 590px;
-    
   }
-  .honsummary{
-      height: 3.6rem;
-    }
-
+  .honsummary {
+    height: 3.6rem;
+  }
 }
 /* for the Mobile-M */
 @media screen and (max-width: 375px) {
-
-    .container{
-        padding-bottom: 300px;
-    }
+  .container {
+    padding-bottom: 300px;
+  }
   header nav ul {
     display: none;
   }
@@ -446,15 +465,14 @@
     width: 74vw;
     top: 93px;
   }
-
-  header div:nth-child(4),
   header div:nth-child(5) {
-    display: none;
-  }
+    width: 22.5rem;
+    
+ }
+
   .name-m {
-   
     top: -50px;
-    left: 0.4rem;
+    right: -1.9rem;
   }
   .arrow {
     display: none;
@@ -465,10 +483,8 @@
   .line4,
   .line5,
   .line6,
-  .line7,
-  .line8,
-  .line9 {
-    display: none;
+  .line7 {
+    width: 1.3rem;
   }
   .logo {
     width: 8rem;
@@ -504,34 +520,32 @@
     width: 90vw;
     min-height: 250px;
   }
-  .boxsummary{
-      width: 20.1rem;
-      font-size: 12px;
-    }
-    .boxsummary p:nth-child(1){
-        font-size: 14px;
-    }
-    .boxsummary p:nth-child(2),
-    .boxsummary p:nth-child(3),
-    .boxsummary p:nth-child(4),
-    .boxsummary p:nth-child(5)
-    {
-        font-size: 10px;
-        
-    }
+  .boxsummary {
+    width: 20.1rem;
+    font-size: 12px;
+  }
+  .boxsummary p:nth-child(1) {
+    font-size: 14px;
+  }
+  .boxsummary p:nth-child(2),
+  .boxsummary p:nth-child(3),
+  .boxsummary p:nth-child(4),
+  .boxsummary p:nth-child(5) {
+    font-size: 10px;
+  }
 
-  .box-logo{
-      height: 3.7rem;
-      width: 3.7rem;
-      margin: 0px;
-      position: absolute;
-      top: 5.4px;
-      right: -10px;
-    }
-    .box-logo img{
-        height: 3.7rem;
-        width: 3.7rem;
-    }
+  .box-logo {
+    height: 3.7rem;
+    width: 3.7rem;
+    margin: 0px;
+    position: absolute;
+    top: 5.4px;
+    right: -10px;
+  }
+  .box-logo img {
+    height: 3.7rem;
+    width: 3.7rem;
+  }
   .about {
     top: 0px;
     margin-top: 0px;
@@ -542,119 +556,105 @@
     position: static;
   }
 
- 
   .edu {
     top: 0px;
     margin-top: 0px;
-    
   }
-  .edusummary{
+  .edusummary {
     height: 3.6rem;
   }
-  .edusummary p:nth-child(4) strong{
-      font-size: 11px;
-    }
-    .edusummary p:nth-child(1){
+  .edusummary p:nth-child(4) strong {
+    font-size: 11px;
+  }
+  .edusummary p:nth-child(1) {
     margin-right: 150px;
-    
-    }
-    .edusummary p:nth-child(2){
-        margin-left:  0px;
-        
-    }
-    .edusummary p:nth-child(4){
+  }
+  .edusummary p:nth-child(2) {
+    margin-left: 0px;
+  }
+  .edusummary p:nth-child(4) {
     margin-bottom: 2px;
-    }
-  .licsummary{
-      height: 3.6rem;
-    }
-    .licsummary p:nth-child(1){
-        font-size: 12.6px;
-        font-weight: 900;
-        margin-left: 0px;
-    }
-    .licsummary p:nth-child(3),
-    .licsummary p:nth-child(4)
-    {
-        margin: 0px;
-        margin-bottom: 2px;
-    }
-  .proj{
+  }
+  .licsummary {
+    height: 3.6rem;
+  }
+  .licsummary p:nth-child(1) {
+    font-size: 12.6px;
+    font-weight: 900;
+    margin-left: 0px;
+  }
+  .licsummary p:nth-child(3),
+  .licsummary p:nth-child(4) {
+    margin: 0px;
+    margin-bottom: 2px;
+  }
+  .proj {
     height: 250px;
   }
-  .proj .box-logo2
-  {
+  .proj .box-logo2 {
     top: 3.1rem;
-
-    
   }
-  .proj .box-logo3
-  {
+  .proj .box-logo3 {
     top: 6.1rem;
-    
   }
-  .skills{
-    
+  .skills {
     height: 550px;
-    
-    margin-top: 260px;
 
+    margin-top: 260px;
   }
-  .skillbox{
+  .skillbox {
     margin: 0px;
     padding: 0px;
     width: 9rem;
     margin-bottom: 4px;
   }
-  .skillsgrid{
-    margin: 0px;    
+  .skillsgrid {
+    margin: 0px;
     display: grid;
     padding: 0px;
     position: static;
     gap: 0px;
   }
-  .hon{
+  .hon {
     margin: 0px;
     padding: 0px;
     position: static;
     margin-top: 590px;
-    
   }
-  .honsummary{
-      height: 3.6rem;
-    }
-    .honsummary p:nth-child(1){
+  .honsummary {
+    height: 3.6rem;
+  }
+  .honsummary p:nth-child(1) {
     font-size: 12px;
     margin-right: 120px;
-    }
-
+  }
 }
 /*  */
 @media screen and (max-width: 320px) {
-    .name-m {
-       
-        top: -50px;
-        left: 2.5rem;
-      }
-      .expbox p:nth-child(1){
-          margin-right: 80px;
-          
-        }
-        .expbox p:nth-child(2){
-        margin-left: 0px;
-        }
-
-.edusummary p:nth-child(1){
+  .name-m {
+    top: -50px;
+    right: -2.8rem;
+  }
+  .expbox p:nth-child(1) {
     margin-right: 80px;
-}
-.skillbox{
+  }
+  .expbox p:nth-child(2) {
+    margin-left: 0px;
+  }
+  header div:nth-child(5) {
+    width: 19.5rem;
+    
+ }
+  .edusummary p:nth-child(1) {
+    margin-right: 80px;
+  }
+  .skillbox {
     width: 7.5rem;
 
     font-size: 12px;
-}
-.honsummary p:nth-child(1){
+  }
+  .honsummary p:nth-child(1) {
     font-size: 12px;
     margin-right: 70px;
-}
-
+  }
 }
